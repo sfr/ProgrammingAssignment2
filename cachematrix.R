@@ -1,6 +1,6 @@
 ##
 ## Following code contains functions that shows how to cache results
-## of  some potentially time-consuming computations.
+## of some potentially time-consuming computations.
 ##
 ## Provided functions cache result of inverse matrix computation.
 ## It's is a lazy computation (only when requested).
@@ -75,7 +75,8 @@ cacheSolve <- function(x, ...)
     m
 }
 
-## Function demonstrates usage of fucntions makeCacheMatrix and cacheSolve
+
+## Function demonstrates usage of functions makeCacheMatrix and cacheSolve
 ## to calculate and cache inverse matrices.
 testCache <- function()
 {
